@@ -1,0 +1,51 @@
+{
+  "name": "vibekit-switchback-mcp",
+  "version": "0.1.1",
+  "description": "MCP server for Switchback — classify AI agent turns by complexity and pick the cheapest model that can handle them. Drop-in for Claude Desktop, Cursor, Cline, and any MCP-compatible client.",
+  "main": "dist/index.js",
+  "bin": {
+    "vibekit-switchback-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "switchback",
+    "ai",
+    "llm",
+    "router",
+    "model-routing",
+    "cost-optimization",
+    "claude-desktop",
+    "cursor",
+    "cline"
+  ],
+  "author": "VibeKit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VibeKit-Bot/vibekit-switchback-mcp.git"
+  },
+  "homepage": "https://github.com/VibeKit-Bot/vibekit-switchback-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/VibeKit-Bot/vibekit-switchback-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "vibekit-switchback": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
