@@ -5,7 +5,7 @@
 [![npm](https://img.shields.io/npm/v/vibekit-switchback-mcp?color=8b5cf6)](https://www.npmjs.com/package/vibekit-switchback-mcp)
 [![Powers VibeKit](https://img.shields.io/badge/powers-VibeKit-8b5cf6)](https://vibekit.bot/switchback)
 
-> Built by [VibeKit](https://vibekit.bot/?ref=github_switchback_mcp) — same cascade router that powers every "Auto" turn in our hosted product. [Learn more →](https://vibekit.bot/switchback?ref=github_switchback_mcp)
+> Built by [VibeKit](https://vibekit.bot) — same cascade router that powers every "Auto" turn in our hosted product. [Learn more →](https://vibekit.bot/switchback)
 
 ## What it does
 
@@ -112,4 +112,4 @@ returns:
 
 MIT. See [LICENSE](./LICENSE).
 
-Built by [VibeKit](https://vibekit.bot/?ref=github_switchback_mcp). The core library is [`vibekit-switchback`](https://www.npmjs.com/package/vibekit-switchback) — this package is the MCP wrapper.
+Built by [VibeKit](https://vibekit.bot). The core library is [`vibekit-switchback`](https://www.npmjs.com/package/vibekit-switchback) — this package is the MCP wrapper.
